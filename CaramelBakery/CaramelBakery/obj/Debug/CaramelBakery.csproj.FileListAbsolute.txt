@@ -1,0 +1,14 @@
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\bin\Debug\CaramelBakery.exe.config
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\bin\Debug\CaramelBakery.exe
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\bin\Debug\CaramelBakery.pdb
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.csproj.AssemblyReference.cache
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.csproj.SuggestedBindingRedirects.cache
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.Properties.Resources.resources
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.csproj.GenerateResource.cache
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.csproj.CoreCompileInputs.cache
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.exe
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.pdb
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.Login.resources
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\bin\Debug\CaramelBakery.mdf
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\bin\Debug\CaramelBakery_log.ldf
+C:\Users\Darius\Desktop\CaramelBakery\CaramelBakery\obj\Debug\CaramelBakery.MainPage.resources

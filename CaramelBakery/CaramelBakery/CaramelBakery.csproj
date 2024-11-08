@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{528575ED-251E-4F03-BFC8-60E5EA629EA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CaramelBakery</RootNamespace>
+    <AssemblyName>CaramelBakery</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CaramelBakery.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CaramelBakery_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>CaramelBakery.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resources\amandina.jpg" />
+    <Content Include="Resources\animale+logo.png" />
+    <Content Include="Resources\caramelLogo1.png" />
+    <None Include="Resources\caramelLogo2.png" />
+    <Content Include="Resources\Carrot-Cake--Tort-de-Morcovi-_1000x1000.jpg" />
+    <Content Include="Resources\chec-cacao.jpg" />
+    <Content Include="Resources\Chec-cu-Unt-si-Lamaie_1000x1000.jpg" />
+    <Content Include="Resources\Colacel-Dulce-cu-Mac_1000x1000.jpg" />
+    <Content Include="Resources\Covrig-Dulce-cu-Mac_1000x1000.jpg" />
+    <Content Include="Resources\Covrig-Dulce-cu-Susan_1000x1000.jpg" />
+    <Content Include="Resources\Cozonac-cu-Nuca--Cacao-si-Rahat_1000x1000.jpg" />
+    <Content Include="Resources\Cozonac-cu-Nuca-si-Cacao_1000x1000.jpg" />
+    <Content Include="Resources\Cozonac-Spic_1000x1000.jpg" />
+    <Content Include="Resources\Ecler-Choco-Mix_1000x1000.jpg" />
+    <Content Include="Resources\Ecler-cu-Frisca_1000x1000.jpg" />
+    <Content Include="Resources\ferma+logo.png" />
+    <Content Include="Resources\icon.ico" />
+    <Content Include="Resources\logo1.png" />
+    <Content Include="Resources\logo2.png" />
+    <Content Include="Resources\logo2crop.png" />
+    <Content Include="Resources\logo3.png" />
+    <Content Include="Resources\paine_zambitoare.png" />
+    <Content Include="Resources\painica.ico" />
+    <Content Include="Resources\pave-cu-faina-alba-scaled-600x400.jpg" />
+    <Content Include="Resources\pave-secara-scaled-600x400.jpg" />
+    <Content Include="Resources\Pavlova_1000x1000.jpg" />
+    <Content Include="Resources\prajitura-albinita-cu-foi-cu-miere-de-albine.jpg" />
+    <Content Include="Resources\pui_sunet.wav" />
+    <Content Include="Resources\Savarina-cu-Frisca_1000x1000.jpg" />
+    <Content Include="Resources\sunet_aripi.wav" />
+    <Content Include="Resources\sunet_bufnita.wav" />
+    <Content Include="Resources\sunet_caine.wav" />
+    <Content Include="Resources\sunet_cal.wav" />
+    <Content Include="Resources\sunet_capra.wav" />
+    <Content Include="Resources\sunet_gaina.wav" />
+    <Content Include="Resources\sunet_gasca.wav" />
+    <Content Include="Resources\sunet_oaie1.wav" />
+    <Content Include="Resources\sunet_oaie2.wav" />
+    <Content Include="Resources\sunet_porc.wav" />
+    <Content Include="Resources\sunet_rata.wav" />
+    <Content Include="Resources\sunet_vaca.wav" />
+    <Content Include="Resources\Tarta-cu-Fructe_1000x1000.jpg" />
+    <Content Include="Resources\Tort-Afrodita_1000x1000.jpg" />
+    <Content Include="Resources\Tort-Bezea_1000x1000.jpg" />
+    <Content Include="Resources\Tort-Caramel_1000x1000.jpg" />
+    <Content Include="Resources\Tort-cu-Biscuiti_1000x1000.jpg" />
+    <Content Include="Resources\Tort-cu-Caramel-Sarat_1000x1000.jpg" />
+    <Content Include="Resources\Tort-Mousse-de-Ciocolata-cu-Fructe-de-Padure_1000x1000.jpg" />
+    <Content Include="Resources\Tort-Mousse-Toscana_1000x1000.jpg" />
+    <Content Include="Resources\tort_rozz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
